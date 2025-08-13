@@ -198,7 +198,7 @@ const translations = {
 };
 
 export function useLanguage() {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("fr");
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language");
