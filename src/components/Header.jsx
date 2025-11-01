@@ -89,22 +89,29 @@ export function Header() {
             >
               {t("contact")}
             </button>
-          </nav>
-
-          <div className="hidden lg:flex items-center space-x-3">
-            <Button
-              onClick={toggleLanguage}
-              variant="outline"
-              size="sm"
-              className={`language-toggle ${
+              <button
+              onClick={() => scrollToSection("contact")}
+              className={`nav-link font-medium transition-colors ${
                 isScrolled
-                  ? "border-blue-500 text-blue-600 hover:bg-blue-50"
-                  : "border-white/50 text-white hover:bg-white/10"
+                  ? "text-gray-700 hover:text-blue-600"
+                  : "text-white hover:text-blue-200"
               }`}
             >
-              <Globe className="w-4 h-4 mr-2" />
-              {t("translateTo")}
-            </Button>
+              {t("carriere")}
+            </button>
+          </nav>
+
+            <nav className="hidden lg:flex items-center space-x-6">
+            <button
+              onClick={() => scrollToSection("home")}
+              className={`nav-link font-medium transition-colors ${
+                isScrolled
+                  ? "text-gray-700 hover:text-blue-600"
+                  : "text-white hover:text-blue-200"
+              }`}
+            >
+              {t("home")}
+            </button>
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-blue-600 hover:bg-blue-700 text-white"
