@@ -89,7 +89,7 @@ export function Header() {
             >
               {t("contact")}
             </button>
-              <button
+            <button
               onClick={() => scrollToSection("contact")}
               className={`nav-link font-medium transition-colors ${
                 isScrolled
@@ -101,7 +101,7 @@ export function Header() {
             </button>
           </nav>
 
-            <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-6">
             <button
               onClick={() => scrollToSection("home")}
               className={`nav-link font-medium transition-colors ${
@@ -118,7 +118,7 @@ export function Header() {
             >
               {t("getQuote")}
             </Button>
-          </div>
+          </nav>
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
