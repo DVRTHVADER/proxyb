@@ -71,8 +71,8 @@ const translations = {
     errorMessage: "Please try again later.",
 
     // Contact Info
-    phoneNumber: "+1 (438) 922-1290",
-    emailAddress: "infoproxyb@gmail.com",
+    phoneNumber: "+1 (438) 922-1290 ",
+    emailAddress: "info.proxybb@gmail.com",
     address: "21 rue de Grand-pre St-Jacques",
     businessHours: "Business Hours: Monday - Friday, 8:00 AM - 5:00 PM",
     emergencyContact: "Emergency: +1 (438) 787-7143",
@@ -100,10 +100,10 @@ const translations = {
   fr: {
     // Navigation
     home: "Accueil",
-    about: "À Propos",
+    about: "À propos de ProxyB",
     services: "Nos Services",
     contact: "Contact",
-    bookNow: "Réserver",
+    bookNow: "obtenez un rendez-vous",
     getQuote: "Obtenir un Devis",
     translateTo: "Translate to English",
 
@@ -169,11 +169,11 @@ const translations = {
     errorMessage: "Veuillez réessayer plus tard.",
 
     // Contact Info
-    phoneNumber: "+1 (555) 123-4567",
-    emailAddress: "info@proxybcare.com",
-    address: "123 Rue des Soins, Montréal, QC H3A 1A1",
+    phoneNumber: "+1 (438)922 1290",
+    emailAddress: "info.proxyb@gmail.com",
+    address: "21 Rue deGrand pre St Jacques, J0K 2R0",
     businessHours: "Heures d'ouverture: Lundi - Vendredi, 8h00 - 18h00",
-    emergencyContact: "Urgence: +1 (555) 987-6543",
+    emergencyContact: "Urgence: +1 (438) 924-7012",
 
     // Footer
     footerDescription:
@@ -219,3 +219,4 @@ export function useLanguage() {
 
   return { language, toggleLanguage, t };
 }
+
