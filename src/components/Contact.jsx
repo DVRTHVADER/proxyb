@@ -103,7 +103,7 @@ export function Contact() {
               {t("Pour btenir votre soumission")}
             </h3>
             <p className="text-gray-700 text-lg font-bold">
-              {t("Au") || "Au :"}
+              {t("Au : (438)922-1290 ") || "Au :"}
             </p>
 
             <a
