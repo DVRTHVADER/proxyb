@@ -100,7 +100,7 @@ export function Contact() {
 
           <div className="space-y-6 bg-white p-8 rounded-lg shadow-lg text-center">
             <h3 className="text-2xl f text-blue-700 mb-4">
-              {t("Pour btenir votre soumission")}
+              {t("Pour obtenir votre soumission")}
             </h3>
             <p className="text-gray-700 text-lg font-bold">
               {t("Au : (438)922-1290 ") || "Au :"}
