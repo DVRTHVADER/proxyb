@@ -113,8 +113,9 @@ export function Services() {
                           </p>
                           <Button
                             onClick={handleAbout)}
-                            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full self-start"
-                          >
+                            variant="outline"
+                            size="lg"
+                            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full self-start">
                             {t("learnMore")}
                           </Button>
                         </div>
