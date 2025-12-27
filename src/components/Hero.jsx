@@ -14,7 +14,9 @@ export function Hero() {
   const handleBookNow = () => {
     window.location.href = "#contact";
   };
-
+  const handleAbout = () => {
+    window.location.href = "#about";
+  };
   return (
     <section
       id="home"
@@ -69,7 +71,7 @@ export function Hero() {
               {t("bookNow")}
             </Button>
             <Button
-              onClick={handleBookNow}
+              onClick={handleAbout}
               variant="outline"
               size="lg"
               className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8 py-3 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
