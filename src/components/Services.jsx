@@ -63,6 +63,9 @@ export function Services() {
       duration: 4000,
     });
   };
+  const handleAbout = () => {
+    window.location.href = "#about";
+  };
 
   return (
     <section id="services" className="py-20 bg-white">
@@ -109,7 +112,7 @@ export function Services() {
                             {service.description}
                           </p>
                           <Button
-                            onClick={() => handleLearnMore(service.title)}
+                            onClick={handleAbout)}
                             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full self-start"
                           >
                             {t("learnMore")}
